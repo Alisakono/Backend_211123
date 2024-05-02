@@ -1,3 +1,4 @@
-select
-from comments
-where comment = 5
+select *
+from reactions
+order by created_at desc
+limit 1
