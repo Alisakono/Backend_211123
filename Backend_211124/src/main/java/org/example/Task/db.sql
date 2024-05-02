@@ -1,3 +1,3 @@
-select users.country
-from users
-where country distinct
+select
+from comments
+where comment = 5
